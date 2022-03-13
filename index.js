@@ -9,6 +9,9 @@ const stripe = Stripe("sk_test_51KcXglJh5z9qKSwjgd5velSj0D6b760cmdWLun00HGAEKypF
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
+app.get('/', function(req, res) {
+    res.send('hello world');
+  });
 app.post("/create-payment-intent", (req, res) => {
 
   stripe.paymentIntents.create(
