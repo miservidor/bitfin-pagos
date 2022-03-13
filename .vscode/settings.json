@@ -2,5 +2,7 @@
     "appService.zipIgnorePattern": [
         "node_modules{,/**}",
         ".vscode{,/**}"
-    ]
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/58aa1d13-2fac-4af6-8f55-7ef91b045ded/resourceGroups/Grupo1/providers/Microsoft.Web/sites/bitfin-pago",
+    "appService.deploySubpath": "."
 }

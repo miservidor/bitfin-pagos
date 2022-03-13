@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 app.get('/', function(req, res) {
-    res.send('hello world');
+    res.send('hello world 4');
   });
 app.post("/create-payment-intent", (req, res) => {
 
